@@ -19,4 +19,12 @@ public class StepTracker
  public int activeDays(){
    return actDays;
  }
+ public double averageSteps(){
+  if(n==0){
+   return 0.0;
+  }
+  else{
+   return (double)totalSteps / n;
+  }
+ }
 } 

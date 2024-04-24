@@ -11,7 +11,7 @@ public class StepTracker
   totalDays=0;
  }
  public void addDailySteps(int steps){
-  totalSteps+=goal;
+  totalSteps+=steps;
   totalDays++;
   if(steps>=minSteps)
    actDays++;
